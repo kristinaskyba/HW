@@ -1,0 +1,299 @@
+html,
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Poppins', sans-serif;
+	max-width: 1125px;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+.intro,
+.offer,
+.options {
+	width: 100%;
+	max-width: 1125px;
+}
+
+p,
+h1,
+h2,
+h3,
+h4 {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration-line: none;
+	color: #2F281E;
+
+}
+
+.navigation {
+	padding-top: 20px;
+	height: 78px;
+	max-width: 1125px;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+}
+
+.logo {
+	float: left;
+	position: absolute;
+	top: 37%;
+
+}
+
+.menu {
+	left: 30%;
+	position: absolute;
+}
+
+.btn {
+	float: right;
+}
+
+.menu_list {
+	display: inline-block;
+	text-decoration: none;
+}
+
+.logo_text {
+	padding-left: 10px;
+}
+
+.menu_list {
+
+	text-decoration: none;
+	list-style-type: none;
+	font-size: 14px;
+	flood-color: #2F281E;
+	line-height: 28px;
+	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+	width: 350px;
+	height: 28px;
+}
+
+button {
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 24px;
+	font-family: 'Poppins', sans-serif;
+
+	margin-right: 10px;
+	cursor: pointer;
+	background-color: transparent;
+	Width: 102px;
+	height: 46px;
+	border-radius: 4px;
+
+}
+
+ul li a {
+	margin-right: 10px;
+}
+
+.sign_left {
+	border-color: #BCD0E5;
+	border: 1px solid #BCD0E5;
+	color: red;
+}
+
+.sign_right {
+	color: white;
+	background-color: #FF9900;
+	border-color: #FF9900;
+}
+
+.intro {
+
+	height: 494.83px;
+	padding-top: 30px;
+}
+
+.intro_left {
+	float: left;
+}
+
+.intro_right {
+	float: right;
+}
+
+.intro_left_title {
+	font-style: normal;
+	font-weight: bold;
+	font-size: 44px;
+	line-height: 54px;
+	width: 518px;
+	color: #2F281E;
+	margin-bottom: 30px;
+	margin-top: 30px;
+}
+
+.intro_left_text {
+	width: 458px;
+	height: 95px;
+	font-size: 18px;
+	line-height: 28px;
+	color: #544837;
+}
+
+.intro_left_btn-left {
+	background: #FF9900;
+	border-radius: 4px;
+	color: white;
+	width: 175px;
+	height: 53px;
+	border: none;
+	margin-top: 45px;
+	margin-right: 30px;
+}
+
+.intro_left_btn-right {
+	width: 161px;
+	height: 23px;
+	font-weight: 600;
+	line-height: 24px;
+	text-decoration-line: underline;
+	color: #FF9900;
+	border: none;
+}
+
+.offer {
+
+	margin-left: auto;
+	margin-right: auto;
+	height: 543px;
+	margin-top: 111px;
+
+}
+
+.offer_general {
+
+	max-width: 1095px;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.offer h2 {
+	font-weight: bold;
+	font-size: 36px;
+	line-height: 54px;
+	text-align: center;
+	padding-bottom: 54px;
+	margin: auto;
+
+}
+
+.offer_width:last-child {
+	padding-right: 2%;
+}
+
+.offer_width {
+	display: inline-block;
+	vertical-align: top;
+	width: 24%;
+
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.offer_width_title {
+	font-weight: 600;
+	font-size: 22px;
+	line-height: 33px;
+	padding-top: 30px;
+	padding-bottom: 13px;
+}
+
+.offer_width p {
+	width: 240px;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 26px;
+}
+
+.offer_width_btn {
+	Width: 175px;
+	height: 53px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 24px;
+	margin-bottom: 90px;
+}
+
+.options {
+	padding-top: 120px;
+	height: 574px;
+}
+
+.options_left-side {
+	float: left;
+	width: 486px;
+	height: 531px;
+}
+
+.options_right-side {
+	float: right;
+}
+
+.options_small-title {
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 24px;
+	padding-bottom: 3px;
+}
+
+.options_title {
+	font-weight: bold;
+	font-size: 36px;
+	line-height: 54px;
+	padding-bottom: 22px;
+}
+
+.options_text {
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 26px;
+	padding-bottom: 30px;
+}
+
+.options_list {
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 26px;
+	padding-bottom: 12px;
+	padding-left: 0px;
+}
+
+.options_list-item {
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 26px;
+	padding-bottom: 25px;
+
+}
+
+.different {
+	padding-top: 20%;
+}
+
+.different_options_left-side {
+	float: left;
+}
+
+.different_options_right-side {
+	width: 486px;
+	height: 531px;
+	float: right;
+}

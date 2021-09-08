@@ -1,0 +1,148 @@
+html,
+body {
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+    font-family:
+        'Urbanist',
+        sans-serif;
+    max-width: 1024px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: black;
+
+}
+
+/* Шрифт: \'Trebuchet MS\' ПЛАТНЫЙ */
+
+* {
+    transition: all .2s ease-in;
+}
+
+p,
+h1,
+h2,
+h3,
+h4 {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration-line: none;
+
+}
+
+ul {
+    list-style: none;
+    font-size: 1em;
+    margin: 0;
+}
+
+h1,
+h2 {
+    font-size: 2.2em;
+    color: #e27b7c;
+    padding-bottom: 1%;
+}
+
+.title+.title_small {
+    font-size: 1.6em;
+}
+
+.wrapper {
+    background-color: #3b3f45;
+    border: 20px solid white;
+}
+
+header {
+    text-align: center;
+    padding: 2% 0;
+    background-color: #4a4f56;
+}
+
+main {
+
+    padding-top: 2%;
+    padding-bottom: 8%;
+}
+
+.items {
+    max-width: 724px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+}
+
+.container {
+    font-size: 1.1em;
+}
+
+ul,
+li {
+    padding: 2%;
+}
+
+li:nth-of-type(odd) {
+    background-color: #88839e;
+}
+
+li:nth-of-type(even) {
+    background-color: #7a7593;
+}
+
+input[type=checkbox]:checked+label {
+    text-decoration: line-through;
+}
+
+.check:hover {
+    background-color: #625e77;
+}
+
+li:hover {
+    background-color: #625e77;
+    border: 5px solid white;
+}
+
+.first::after {
+    content: " (for the next lessons about CSS)";
+    font-size: 0.6em;
+}
+
+.second::after {
+    content: " (for more CSS manipulations)";
+    font-size: 0.6em;
+}
+
+.third::after {
+    content: " (because they are awesome)";
+    font-size: 0.6em;
+}
+
+.fourth::after {
+    content: " (hm.. they always dissapear)";
+    font-size: 0.6em;
+}
+
+.sixth::after {
+    content: " (for my friends)";
+    font-size: 0.6em;
+}
+
+footer p {
+    background-color: #4a4f56;
+    max-width: 724px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 01.4em;
+    font-weight: bold;
+    color: #e27b7c;
+    text-align-last: center;
+    padding: 3% 0;
+    margin-bottom: 4%;
+
+}
