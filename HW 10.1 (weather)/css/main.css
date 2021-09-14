@@ -1,0 +1,67 @@
+html,
+body {
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans Unicode', arial;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    background-color: #3d99cc;
+    /* border: 5px solid #3382ac; */
+
+}
+
+h3,
+p {
+    margin: 0;
+}
+
+h1 {
+    display: inline-block;
+}
+
+.wi-sunrise {
+    font-size: 30px;
+    margin-right: 10px;
+}
+
+ul {
+    display: block;
+    padding: 0;
+    text-align-last: center;
+}
+
+section ul li {
+    font-size: 18px;
+    display: inline-block;
+    border: 2px solid white;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+section ul .width-50 {
+    width: 49%;
+}
+
+section ul .width_small {
+    width: 24%;
+}
+
+.cities li:nth-last-child(1) {
+    width: 100%;
+}
+
+/* section ul .border-right {
+    border-right: none;
+} */
+
+/* .border {
+    border: 2px solid white;
+} */
+
+/* 
+section ul .width-20:nth-child(1) {
+    border-right: 5px solid white;
+} */
