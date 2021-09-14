@@ -1,0 +1,125 @@
+html,
+body {
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    max-width: 1024px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+* {
+    transition: all .1s ease-out;
+}
+
+h3,
+p {
+    margin: 0;
+}
+
+header {
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 140px;
+    margin-bottom: 100px;
+}
+
+
+header p {
+    font-size: 12px;
+    letter-spacing: 5px;
+    line-height: 30px;
+    color: #898f99;
+    font-weight: 700;
+
+}
+
+header h1 {
+    font-size: 48px;
+    letter-spacing: 5px;
+    line-height: 30px;
+    color: #0ec8cb;
+    font-weight: 400;
+    margin-top: 30px;
+    margin-bottom: 45px;
+
+}
+
+header h2 {
+    width: 513px;
+    margin-right: auto;
+    margin-left: auto;
+    height: 65px;
+    font-size: 18px;
+    line-height: 30px;
+    color: #999999;
+    font-weight: 400;
+    font-family: "PT Sans";
+
+}
+
+section {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+section div {
+    text-align: center;
+    background-color: #f7f7f7;
+    border: 1px solid #ececec;
+    padding: 50px 0 90px 0;
+}
+
+section div h3 {
+    font-size: 21px;
+    color: #1b1b1b;
+    font-weight: 400;
+    font-family: "Montserrat";
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 45px;
+    margin-bottom: 30px;
+}
+
+section div p {
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 162px;
+    font-size: 14px;
+    line-height: 22px;
+    color: #777777;
+    font-weight: 400;
+    font-family: "PT Sans";
+    text-align: center;
+}
+
+.margin-top {
+    margin-top: 30px;
+}
+
+section div:hover,
+div:hover h3,
+div:hover p,
+div:hover .shp0 {
+    background-color: #0dc7cb;
+    border: 1px solid #0ec8cb;
+    color: #ffffff;
+    fill: white;
+
+}
+
+.tspan {
+    white-space: pre;
+}
+
+.shp0 {
+    fill: #1b1b1b;
+}
+
+/* .shp0:hover {
+    fill: white;
+} */
