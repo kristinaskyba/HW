@@ -1,0 +1,209 @@
+html,
+body,
+h1,
+p,
+button,
+h2,
+div,
+section {
+    font-size: 18px;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+    padding-block-start: 0;
+    padding-block-end: 0;
+    padding-inline-start: 0;
+    padding-inline-end: 0;
+    font-family: 'Raleway', sans-serif;
+    width: 100%;
+}
+
+* {
+    transition: all .1s ease-out;
+}
+
+ul,
+li,
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+header {
+    padding: 40px 50px;
+}
+
+header .nav {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    font-family: 'Pacifico', cursive;
+    font-size: 50px;
+    color: #262626;
+}
+
+header nav ul li {
+    margin-right: 40px;
+}
+
+header nav ul li a {
+    text-transform: uppercase;
+    font-size: 16px;
+    color: #262626;
+    font-weight: 700;
+}
+
+li:last-child {
+    margin-right: 0;
+}
+
+header nav ul li a:hover,
+header nav ul li a:active {
+    border-top: 3px solid #ff6033;
+    padding-top: 10px;
+}
+
+.intro {
+    margin-top: 113px;
+}
+
+section .text,
+section .picture {
+    width: 50%;
+}
+
+header {
+    background: url(./image/icecream.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center;
+    /* height: 100vh; */
+
+}
+
+header .intro div h1 {
+    margin-top: 210px;
+    font-size: 60px;
+    color: #262626;
+}
+
+header .intro div p {
+    width: 370px;
+    font-size: 17px;
+    line-height: 27px;
+    color: #262626;
+    font-weight: 300;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+header .intro button {
+    font-size: 20px;
+    line-height: 27px;
+    color: #ffffff;
+    font-weight: 300;
+    width: 200px;
+    height: 55px;
+    background-color: #ff6033;
+    text-transform: uppercase;
+    filter: drop-shadow(0px 2px 2.5px rgba(0, 0, 0, 0.5));
+    border: none;
+}
+
+header .scroll {
+    margin-top: 290px;
+    text-align: center;
+}
+
+main .about {
+    /* padding: 70px 0px; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-image: radial-gradient(circle at center, #00c3c3 0%, #00b8b7 32%, #00afae 68%, #00a09f 100%);
+}
+
+
+main .about h2 {
+    font-size: 90px;
+    line-height: 27px;
+    color: #ffffff;
+    font-weight: 700;
+    margin-bottom: 70px;
+}
+
+main .about p {
+    font-size: 17px;
+    line-height: 27px;
+    color: #ffffff;
+    font-weight: 300;
+    width: 500px;
+
+}
+
+main .about div {
+    margin-left: 80px;
+}
+
+main .services {
+    display: flex;
+    background-color: #70bfff;
+
+}
+
+main .services div {
+    display: block;
+    position: relative;
+}
+
+main .services button {
+    width: 400px;
+    height: 100px;
+    font-size: 20px;
+    line-height: 27px;
+    color: #262626;
+    border: none;
+    margin-bottom: 20px;
+    background: url(./image/cart.svg) no-repeat center right;
+    background-color: transparent;
+    background-position-x: 330px;
+}
+
+
+main .services button span {
+    border-right: 1px solid #9d9d9d;
+    padding-right: 70px;
+
+}
+
+/* 
+main .services button::after {
+    content: " ";
+    border-right: 1px solid #9d9d9d;
+    padding-right: 70px;
+    display: inline-block;
+    height: 100px;
+} */
+
+
+
+main .services button:hover {
+    filter: drop-shadow(0px 4px 5px rgba(0, 0, 0, 0.5));
+    background-color: #ffffff;
+}
+
+main .services h2 {
+    font-size: 90px;
+    color: #ffffff;
+    font-weight: 700;
+    position: absolute;
+    top: 50%;
+
+}
+
+main .services img {}
