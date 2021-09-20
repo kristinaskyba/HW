@@ -153,37 +153,61 @@ main .about div {
 main .services {
     display: flex;
     background-color: #70bfff;
-
+    padding: 100px 0;
 }
 
 main .services div {
     position: relative;
 }
 
-main .services li {
-
-    width: 400px;
-    padding: 20px 20px;
-    margin-bottom: 20px;
+main .services .services__links {
+    padding: 70px 0;
     text-align: center;
 }
 
-main .services a {
+main .services .services__links a {
     display: flex;
     justify-content: space-between;
-    font-size: 20px;
-    color: #262626;
     width: 400px;
+    height: 100px;
+    padding: 10px;
+    margin: 0 auto 20px;
+    font-size: 20px;
+    font-family: "Raleway";
+    color: rgb(38, 38, 38);
+    font-weight: bold;
+    align-items: center;
+    box-sizing: border-box;
+    position: relative;
+}
+/*
+main .services .services__links a span{
+    flex: 1 1 auto;
+    padding: 0 10px;
+}
+*/
+main .services .services__links a p{
+    padding: 0 40px;
+    font-size: 20px;
+}
+main .services .services__links a::after {
+    content: '';
+    display: block;
+    height: 100%;
+    width: 1px;
+    background: #818181;
+    right: 90px;
+    position: absolute;
+}
+
+main .services .services__links a:hover {
+    filter: drop-shadow(0px 4px 5px rgba(0, 0, 0, 0.5));
+    background-color: #ffffff;
 }
 
 main .services svg {
-    border-left: 1px solid #9d9d9d;
-    padding-left: 20px;
-}
-
-main .services li:hover {
-    filter: drop-shadow(0px 4px 5px rgba(0, 0, 0, 0.5));
-    background-color: #ffffff;
+    width: 115px;
+    height: 55px;
 }
 
 main .services h2 {
