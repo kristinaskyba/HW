@@ -6,6 +6,7 @@ button,
 h2,
 div,
 section {
+    box-sizing: border-box;
     font-size: 18px;
     margin-block-start: 0;
     margin-block-end: 0;
@@ -17,6 +18,9 @@ section {
     padding-inline-end: 0;
     font-family: 'Raleway', sans-serif;
     width: 100%;
+    max-width: 1500px;
+    line-height: normal;
+    ;
 }
 
 * {
@@ -30,15 +34,16 @@ a {
     display: inline-block;
 }
 
-header {
-    padding: 40px 50px;
-}
-
 header .nav {
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-between;
     align-items: center;
+}
+
+header,
+.intro {
+    padding: 0 30px;
 }
 
 header .logo {
@@ -56,55 +61,48 @@ header nav ul li a {
     font-size: 16px;
     color: #262626;
     font-weight: 700;
+    border-top: 3px solid transparent;
+    padding-top: 10px;
 }
 
-li:last-child {
+header nav ul li:last-child {
     margin-right: 0;
 }
 
 header nav ul li a:hover,
 header nav ul li a:active {
-    border-top: 3px solid #ff6033;
-    padding-top: 10px;
+    border-color: #ff6033;
+
 }
 
-.intro {
-    margin-top: 113px;
-}
-
-section .text,
-section .picture {
-    width: 50%;
-}
-
-header {
-    background: url(./image/icecream.png);
+.wrapper {
+    background: url(./image/first.png);
+    background-color: #fbfafc;
     background-repeat: no-repeat;
-    background-size: auto;
+    background-size: inherit;
     background-position: center;
     /* height: 100vh; */
 
 }
 
-header .intro div h1 {
+.wrapper .intro h1 {
     margin-top: 210px;
     font-size: 60px;
     color: #262626;
 }
 
-header .intro div p {
+.wrapper .intro p {
     width: 370px;
     font-size: 17px;
-    line-height: 27px;
     color: #262626;
     font-weight: 300;
     margin-top: 30px;
     margin-bottom: 30px;
+    line-height: 27px;
 }
 
-header .intro button {
+.wrapper .intro button {
     font-size: 20px;
-    line-height: 27px;
     color: #ffffff;
     font-weight: 300;
     width: 200px;
@@ -115,45 +113,42 @@ header .intro button {
     border: none;
 }
 
-header .scroll {
-    margin-top: 290px;
+.wrapper .intro a {
     text-align: center;
+    margin-top: 290px;
+    padding-bottom: 60px;
+    display: block;
 }
 
 main .about {
-    /* padding: 70px 0px; */
     display: flex;
     justify-content: space-around;
     align-items: center;
     background-image: radial-gradient(circle at center, #00c3c3 0%, #00b8b7 32%, #00afae 68%, #00a09f 100%);
 }
 
-
 main .about h2 {
     font-size: 90px;
-    line-height: 27px;
     color: #ffffff;
     font-weight: 700;
-    margin-bottom: 70px;
+    margin-bottom: 35px;
+
 }
 
 main .about p {
     font-size: 17px;
-    line-height: 27px;
     color: #ffffff;
     font-weight: 300;
-    width: 500px;
-
-}
-
-main .about div {
-    margin-left: 80px;
+    line-height: 27px;
+    margin-top: 20px;
+    max-width: 490px;
+    width: 100%;
 }
 
 main .services {
     display: flex;
     background-color: #70bfff;
-    padding: 100px 0;
+    padding-top: 100px;
 }
 
 main .services div {
@@ -161,7 +156,7 @@ main .services div {
 }
 
 main .services .services__links {
-    padding: 70px 0;
+    padding: 77px 0;
     text-align: center;
 }
 
@@ -177,25 +172,20 @@ main .services .services__links a {
     color: rgb(38, 38, 38);
     font-weight: bold;
     align-items: center;
-    box-sizing: border-box;
     position: relative;
 }
-/*
-main .services .services__links a span{
-    flex: 1 1 auto;
-    padding: 0 10px;
-}
-*/
-main .services .services__links a p{
+
+main .services .services__links a p {
     padding: 0 40px;
     font-size: 20px;
 }
+
 main .services .services__links a::after {
     content: '';
     display: block;
     height: 100%;
     width: 1px;
-    background: #818181;
+    background-color: #9d9d9d;
     right: 90px;
     position: absolute;
 }
@@ -205,17 +195,75 @@ main .services .services__links a:hover {
     background-color: #ffffff;
 }
 
-main .services svg {
-    width: 115px;
-    height: 55px;
-}
-
 main .services h2 {
     font-size: 90px;
     color: #ffffff;
     font-weight: 700;
-    position: absolute;
-    top: 50%;
+    margin-top: 232px;
+    margin-left: -50px;
 }
 
-main .services img {}
+main .services .services_image {
+    background: url(./image/tomatoes.png) no-repeat;
+}
+
+.gallery {
+    background-color: #ffe92f;
+    text-align: center;
+    padding: 100px 30px;
+}
+
+.gallery h2 {
+    font-size: 90px;
+    color: #262626;
+    font-weight: 700;
+}
+
+.gallery p {
+    width: 630px;
+    font-size: 17px;
+    line-height: 27px;
+    color: #262626;
+    font-weight: 300;
+    margin: 43px auto;
+}
+
+.gallery .pictures {
+    display: flex;
+    flex-wrap: nowrap;
+    height: 560px;
+}
+
+.gallery .pictures .pictures_right {
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    margin-left: 30px;
+}
+
+.gallery .pictures .pictures_right img {
+    height: 260px;
+}
+
+.gallery .pictures .pictures_right img:last-child {
+    margin-top: 35px;
+}
+
+.gallery .pictures .pictures_bottom {
+
+    display: flex;
+    width: 1170px;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+/* 
+.gallery .pictures .pictures_right img {
+    width: 75%;
+} */
+
+/* 
+.gallery .pictures .pictures_right img:last-child {
+    padding-top: 20px;
+} */
