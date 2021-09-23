@@ -51,7 +51,8 @@ header,
     padding: 0 30px;
 }
 
-header .logo {
+header .logo,
+footer .logo {
     font-family: 'Pacifico', cursive;
     font-size: 50px;
     color: #262626;
@@ -325,6 +326,10 @@ main .services .services_image {
 
 }
 
+.subscribe input::placeholder {
+    color: #262626;
+}
+
 .subscribe button {
     font-size: 20px;
     text-transform: uppercase;
@@ -410,5 +415,123 @@ main .services .services_image {
     display: block;
     padding-top: 10px;
     font-size: 13px;
+}
 
+.contact {
+    display: flex;
+    flex-direction: column;
+    padding: 100px 160px;
+    background: url(./image/footerbackground.png) no-repeat;
+    background-position: center;
+}
+
+.contact h3 {
+    font-size: 90px;
+    font-weight: 700px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.contact p {
+    width: 30%;
+    margin: 0 auto;
+    padding-bottom: 50px;
+    font-size: 17px;
+    line-height: 25px;
+    color: #262626;
+    font-weight: 300;
+    text-align: center;
+
+}
+
+.contact .form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.contact input[type=text],
+.contact input[type=mail],
+.contact input[type=phone],
+.contact textarea {
+    width: 100%;
+    font-size: 15px;
+    font-weight: 700;
+    font-family: "Raleway";
+    color: white;
+    background-color: #00c4c4;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+::placeholder {
+    color: white;
+}
+
+.comment {
+    height: 150px;
+}
+
+input[type=submit] {
+    width: 100%;
+    font-size: 15px;
+    font-weight: 700;
+    font-family: "Raleway";
+    background-color: #96b92c;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #96b92c;
+}
+
+.contact .form .form_right .address {
+    font-weight: bold;
+    font-size: 17px;
+    text-align: left;
+    padding-bottom: 20px;
+    width: 100%;
+
+}
+
+.contact .form .form_right span {
+    display: block;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+footer {
+    background-color: #262626;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer p {
+    padding: 20px 0;
+    font-size: 16px;
+    color: #b9b9b9;
+    font-weight: 300;
+    display: inline-block;
+
+}
+
+footer .logo {
+    color: #b9b9b9;
+    font-size: 25px;
+    font-weight: 400px;
+}
+
+footer p span {
+    color: red;
 }
