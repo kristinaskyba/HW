@@ -1,0 +1,118 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+ul,
+li,
+p,
+h4 {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.section {
+    max-width: 1170px;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+}
+
+header {
+    background: url(./image/hero-bg.png) no-repeat center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+header svg {
+    margin: 0 auto;
+    display: block;
+}
+
+header h1 {
+    font-size: 54px;
+    padding: 85px 0 45px 0;
+    letter-spacing: 9px;
+    color: #ffffff;
+    font-weight: 700;
+    text-align: center;
+}
+
+header p {
+    text-transform: uppercase;
+    margin: 0 auto;
+    font-size: 15px;
+    letter-spacing: 1px;
+    line-height: 29px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Lato";
+    text-align: center;
+}
+
+header .scroll {
+    margin-top: 240px;
+}
+
+.about {
+    position: relative;
+    margin-top: 135px;
+}
+
+.about h2 {
+    position: absolute;
+    background-color: white;
+    left: 35%;
+    top: -15%;
+    width: 30%;
+    border: 1px solid transparent;
+    font-size: 34px;
+    letter-spacing: 5px;
+    color: #3c3c3c;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.about .border {
+    border: 1px solid black;
+    width: 70%;
+    margin: 50px auto;
+    padding: 50px;
+    text-align: center;
+
+}
+
+.about p {
+    width: 62%;
+    margin: 0 auto;
+    font-size: 16px;
+    line-height: 24px;
+    color: #3c3c3c;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.about p:last-child {
+    width: 57%;
+}
