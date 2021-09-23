@@ -6,32 +6,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HW9</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">  <!-- тебя тут ничего не смущает ? -->
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> <!-- тебя тут ничего не смущает ? -->
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">  <!-- тебя тут ничего не смущает ? -->
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>  <!-- тебя тут ничего не смущает ? -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">  <!-- тебя тут ничего не смущает ? -->
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>  <!-- тебя тут ничего не смущает ? -->
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./main.css">
 </head>
 
 <body>
-<!-- контент не по центру -->
+    <!-- контент не по центру -->
     <div class="wrapper">
-        <header class="header"> <!-- при такой записи или header или nav получилися безполезным -->
+        <header class="header">
+            <!-- при такой записи или header или nav получилися безполезным -->
+
+            <a class="logo" href="#">Cahee</a> <!-- А лого точно относится к навигации ? -->
             <nav class="nav">
-                <a class="logo" href="#">Cahee</a> <!-- А лого точно относится к навигации ? -->
-                <ul> <!-- если используешь ul(список) то в током случае. nav - будет безполезной оберткой  -->
-                    <li><a href="#">home</a></li>
-                    <li><a href="#">about</a></li>
-                    <li><a href="#">services</a></li>
-                    <li><a href="#">gallery</a></li>
-                    <li><a href="#">blog</a></li>
-                    <li><a href="#">contact</a></li>
-                </ul>
+                <!-- если используешь ul(список) то в током случае. nav - будет безполезной оберткой  -->
+                <a href="#">home</a>
+                <a href="#">about</a>
+                <a href="#">services</a>
+                <a href="#">gallery</a>
+                <a href="#">blog</a>
+                <a href="#">contact</a>
             </nav>
         </header>
         <section class="intro">
@@ -216,39 +211,41 @@
             <div class="articles">
                 <div class="articles_1">
                     <div class="day">
-                        <p>
+                        <p class="day_number">
                             20 <span>NOV</span>
                         </p>
                     </div>
-                    <p>
+                    <p class="day_text">
                         Green Smoothies: Too Much of a Good Thing?
                         <span class="author">By Auskteez - 2 hours ago</span>
                     </p>
                 </div>
                 <div class="articles_2">
                     <div class="day">
-                        <p>
+                        <p class="day_number">
                             14 <span>NOV</span>
                         </p>
                     </div>
-                    <p>
+                    <p class="day_text">
                         Growing Food and a “Thirst” for Innovation
                         <span class="author">By Auskteez - 2 hours ago</span>
                     </p>
                 </div>
+
                 <div class="articles_3">
                     <div class="day">
-                        <p>
+                        <p class="day_number">
                             10 <span>NOV</span>
                         </p>
                     </div>
-                    <p>
+                    <p class="day_text">
                         Pesticides & Food: What You Need to Know
                         <span class="author">By Auskteez - 6 hours ago
                         </span>
                     </p>
                 </div>
             </div>
+
         </section>
     </main>
 </body>
