@@ -3,46 +3,30 @@
 }
 
 @font-face {
-    font-family: 'Miso';
+    font-family: 'NeueHansKendrick';
     font-style: normal;
     font-weight: normal;
-    src: local('Miso'), url(./fonts/miso.woff) format('woff');
+    src: url(./fonts/NeueHansKendrick-Regular.otf) format('otf');
+    src: url(./fonts/NeueHansKendrick-Regular.ttf) format('ttf');
 }
 
-
-@font-face {
-    font-family: 'Miso Light';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Miso Light'), url(./fonts/miso-light.woff) format('woff');
-}
-
-
-@font-face {
-    font-family: 'Miso Bold';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Miso Bold'), url(./fonts/miso-bold.woff) format('woff');
-}
-
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
 
 html,
 body {
     margin: 0;
     padding: 0;
-    font-family: 'Miso', sans-serif;
+    font-family: 'NeueHansKendrick';
     margin-right: auto;
     margin-left: auto;
     font-size: 18px;
-    font-weight: 700;
-    background-color: #fcde7e;
 }
 
 ul,
 li,
 p,
-h4 {
+h4,
+h2 {
+    text-transform: uppercase;
     list-style: none;
     margin: 0;
     padding: 0;
@@ -58,16 +42,19 @@ main {
     justify-content: space-around;
     align-items: center;
     padding: 100px 50px;
-
+    background-color: #e2e7ec;
 }
 
-main div {
+main .first {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: white;
-    padding: 40px 56px;
-    box-shadow: 3px 3px 4px 0 rgba(0, 0, 0, 0.25)
+}
+
+.first .left {
+    background-image: url(./image/redcar.png);
+}
+
+main .second {
+    padding: 50px 56px 60px 56px;
 }
 
 
@@ -89,9 +76,8 @@ main img {
     margin-bottom: 40px;
 }
 
-main .second:hover img {
-    padding-top: 25px;
-    padding-bottom: 25px;
+main .second img {
+    margin-top: 40px;
 }
 
 main .discount {
