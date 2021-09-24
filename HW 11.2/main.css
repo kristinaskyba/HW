@@ -19,6 +19,7 @@ body {
     margin-right: auto;
     margin-left: auto;
     font-size: 18px;
+    background-color: #e2e7ec;
 }
 
 ul,
@@ -37,57 +38,89 @@ a {
 }
 
 main {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
-    padding: 100px 50px;
-    background-color: #e2e7ec;
+    max-width: 1124px;
+    width: 100%;
+    margin: 0 auto;
+
 }
 
-main .first {
-    display: flex;
-}
-
-.first .left {
-    background-image: url(./image/redcar.png);
-}
-
+main .first,
 main .second {
-    padding: 50px 56px 60px 56px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: start;
+    padding-top: 20px;
 }
 
-
-main .price {
-    font-size: 70px;
-    color: #02995b;
-    font-weight: bold;
-    text-align: center;
+main .text {
+    margin-left: 20px;
 }
 
-main .name {
-    font-size: 56px;
-    color: #333333;
-    margin-bottom: 45px;
+main .text p {
+    font-size: 13px;
+    color: #818181;
+    font-weight: 500;
+    width: 200px;
+    margin-bottom: 10px;
 }
 
-main img {
-    margin-top: 25px;
-    margin-bottom: 40px;
+main .first,
+main .second {
+    height: 540px;
 }
 
-main .second img {
-    margin-top: 40px;
+main .author {
+    margin-top: 45px;
+    margin-bottom: 20px;
 }
 
-main .discount {
-    /* font-family: 'Lato', sans-serif;  not sure this is correct font-family  */
-    font-size: 20px;
-    letter-spacing: 0.25em;
-    line-height: 24px;
-    color: #333333;
+main .first .left {
+    background: url(./image/redcar.png) no-repeat center;
+    background-size: cover;
+    width: 66%;
+    margin-right: 20px;
+    height: 100%;
+}
+
+main .first .left .text {
+    margin-top: 400px;
+}
+
+main .first .left h2 {
+    font-size: 30px;
     width: 70%;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
+    letter-spacing: 1px;
+    color: #ffffff;
+    padding-bottom: 30px;
+}
+
+main .first .right,
+main .second .item {
+    background-color: white;
+    width: 32%;
+}
+
+main .first .right .face {
+    width: 100%;
+}
+
+main .first .right h2,
+main .second .item h2 {
+    font-size: 22px;
+
+}
+
+main .first .right p,
+main .second .item p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+main .second .item {
+    margin-right: 20px;
+}
+
+main .second .item:last-child {
+    margin-right: 0;
 }
