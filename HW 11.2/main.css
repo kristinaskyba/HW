@@ -70,6 +70,10 @@ main .second {
     height: 540px;
 }
 
+main .face {
+    width: 100%;
+}
+
 main .author {
     margin-top: 45px;
     margin-bottom: 20px;

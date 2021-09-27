@@ -1,0 +1,149 @@
+@font-face {
+    font-family: 'Futura PT';
+    font-style: normal;
+    font-weight: normal;
+    src: url(./fonts/FuturaTS-Regular.ttf) format('ttf');
+}
+
+@font-face {
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: normal;
+    src: url(./fonts/Georgia.ttf) format('ttf');
+}
+
+@font-face {
+    font-family: 'Proxima Nova';
+    font-style: italic;
+    font-weight: normal;
+    src: url(./fonts/Georgia-Italic.ttf) format('ttf');
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 18px;
+
+}
+
+ul,
+li,
+p,
+h4,
+h1,
+h2 {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.general {
+    background-color: #464f53;
+    padding: 150px 65px;
+}
+
+.general .left_border {
+    margin-left: 30px;
+    background-color: white;
+}
+
+.general .white {
+    border-left: 2px solid #e8eced;
+    margin-left: 65px;
+    padding-left: 50px;
+    position: relative;
+    padding-top: 190px;
+    padding-bottom: 30px;
+}
+
+.general .white p {
+    font-size: 27px;
+    line-height: 40px;
+    color: #000000;
+    font-family: "Georgia";
+    width: 67%;
+    margin-bottom: 30px;
+
+
+}
+
+.general .black {
+    background-color: black;
+    width: 100%;
+    padding: 40px;
+    padding-right: 0;
+    position: absolute;
+    top: -15%;
+    left: 35%;
+}
+
+.general .white .black .black_small {
+    font-size: 15px;
+    letter-spacing: 5px;
+    color: #767676;
+    font-family: "Proxima Nova";
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+
+.general .white .black .black_big {
+    font-size: 48px;
+    color: #fefefe;
+    font-weight: 400;
+    font-family: "Playfair Display";
+    border-bottom: 3px solid #ffffff;
+    padding-bottom: 12px;
+
+}
+
+.general .white .yellow {
+    background-color: #f4ba32;
+    width: 100%;
+    padding: 20px 40px;
+    position: absolute;
+    top: 9%;
+    left: 40%;
+}
+
+
+.general .white .author {
+    font-size: 20px;
+    letter-spacing: 4px;
+    color: #b4b4b4;
+    font-family: "Proxima Nova";
+    padding-top: 30px;
+    margin-bottom: 35px;
+}
+
+.general .white h1 {
+    font-family: 'Futura PT';
+    margin-bottom: 25px;
+    color: #2a2a2a;
+    font-size: 78px;
+    letter-spacing: 4px;
+    line-height: 74px;
+}
+
+.general .white span {
+    font-style: italic;
+}
+
+.general .white h2 {
+    font-size: 30px;
+    color: #8f8f8f;
+    font-style: italic;
+    font-family: "Georgia";
+    margin-bottom: 40px;
+
+}
