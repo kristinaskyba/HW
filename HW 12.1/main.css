@@ -1,0 +1,167 @@
+@font-face {
+    font-family: 'Futura PT';
+    font-style: normal;
+    font-weight: normal;
+    src: url(./fonts/FuturaTS-Regular.ttf) format('ttf');
+}
+
+@font-face {
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: normal;
+    src: url(./fonts/Georgia.ttf) format('ttf');
+}
+
+@font-face {
+    font-family: 'Proxima Nova';
+    font-style: italic;
+    font-weight: normal;
+    src: url(./fonts/Georgia-Italic.ttf) format('ttf');
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 18px;
+
+}
+
+ul,
+li,
+p,
+h4,
+h1,
+h2 {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+main {
+    background-color: #464f53;
+    padding: 50px;
+}
+
+header {
+    margin-bottom: -7%;
+    z-index: 1;
+    position: relative;
+}
+
+
+.wrap {
+    margin-top: 50px;
+    margin-left: 318px;
+    background-color: black;
+    color: white;
+    padding: 30px 0 40px 30px;
+
+}
+
+.wrap__title {
+    font-size: 48px;
+    color: #fefefe;
+    font-weight: 400;
+    font-family: "Playfair Display";
+    padding-bottom: 3px;
+    border-bottom: 3px solid white;
+    position: relative;
+}
+
+.wrap__title::after {
+    content: " ";
+    width: 3px;
+    height: 100%;
+    background-color: grey;
+    display: block;
+    position: absolute;
+    top: 0%;
+    right: 73%;
+
+}
+
+.wrap__subtitle {
+    font-size: 15px;
+    letter-spacing: 5px;
+    color: #767676;
+    font-family: "Proxima Nova";
+}
+
+.pictures {
+    padding: 30px;
+    width: 75%;
+    background-color: orange;
+    margin-left: auto;
+}
+
+.wrap__subtitle--fs {}
+
+.article {
+    position: relative;
+    background-color: white;
+    padding-left: 7%;
+    padding-top: 185px;
+    padding-bottom: 50px;
+}
+
+.article::before {
+    position: absolute;
+    content: " ";
+    display: block;
+    background-color: grey;
+    width: 4px;
+    height: 100%;
+    top: 0;
+    left: 70px;
+
+}
+
+.article__author {
+    font-size: 20px;
+    letter-spacing: 4px;
+    color: #b4b4b4;
+    font-family: "Proxima Nova";
+    margin-bottom: 50px;
+}
+
+.article__title {
+    font-size: 78px;
+    letter-spacing: 4px;
+    color: #2a2a2a;
+    font-family: "Futura PT";
+    margin-bottom: 18px;
+}
+
+.article__subtitle {
+    font-size: 30px;
+    color: #8f8f8f;
+    font-style: italic;
+    font-family: "Georgia";
+    margin-bottom: 50px;
+}
+
+.article__text {
+    font-size: 27px;
+    line-height: 40px;
+    color: #000000;
+    font-family: "Georgia";
+    margin-bottom: 40px;
+}
+
+.article__cursive {
+    font-size: 27px;
+    line-height: 40px;
+    color: #000000;
+    font-family: "Georgia";
+}

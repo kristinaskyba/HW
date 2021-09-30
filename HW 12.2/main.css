@@ -104,8 +104,14 @@ a {
     font-family: "Playfair Display";
     border-bottom: 3px solid #ffffff;
     padding-bottom: 12px;
-
 }
+
+/* 
+.general .white .black .black_big span {
+    content: " ";
+    display: inline-block;
+    border-right: 1px solid rgb(107, 28, 28);
+} */
 
 .general .white .yellow {
     background-color: #f4ba32;
