@@ -1,0 +1,138 @@
+body,
+div,
+section,
+h1,
+h2,
+h3,
+h4,
+p,
+span {
+    box-sizing: border-box;
+    font-size: 18px;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+    padding-block-start: 0;
+    padding-block-end: 0;
+    padding-inline-start: 0;
+    padding-inline-end: 0;
+    font-family: 'Raleway', sans-serif;
+    line-height: normal;
+}
+
+ul,
+li,
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+.wrapper {
+    background: url(./image/first.png);
+    background-color: #fbfafc;
+    background-repeat: no-repeat;
+    background-size: inherit;
+    background-position: center;
+    padding: 40px 30px;
+
+}
+
+.header {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.logo {
+    font-family: 'Pacifico', cursive;
+    font-size: 50px;
+    color: #262626;
+}
+
+.navigation__item {
+    text-transform: uppercase;
+    font-size: 16px;
+    color: #262626;
+    font-weight: 700;
+    border-top: 3px solid transparent;
+    padding-top: 10px;
+    margin-right: 20px;
+}
+
+.navigation__item:last-child {
+    margin-right: 0;
+}
+
+.navigation__item:hover,
+.navigation__item:active {
+    border-color: #ff6033;
+
+}
+
+.title {
+    font-size: 90px;
+    color: #ffffff;
+    font-weight: 700;
+}
+
+.intro__title {
+    margin-top: 210px;
+    font-size: 60px;
+    color: #262626;
+}
+
+.description {
+    font-size: 17px;
+    color: #262626;
+    font-weight: 300;
+    line-height: 27px;
+}
+
+.intro__description {
+    width: 370px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.button {
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: 300;
+    width: 200px;
+    height: 55px;
+    text-transform: uppercase;
+    filter: drop-shadow(0px 2px 2.5px rgba(0, 0, 0, 0.5));
+    border: none;
+}
+
+.intro__button {
+    background-color: #ff6033;
+    margin-bottom: 290px;
+}
+
+.scroll {
+    text-align: center;
+    display: block;
+}
+
+.intro__scroll {
+    padding-bottom: 60px;
+}
+
+.about {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-image: radial-gradient(circle at center, #00c3c3 0%, #00b8b7 32%, #00afae 68%, #00a09f 100%);
+}
+
+.about__text--paragraph {
+    color: #ffffff;
+
+    margin-top: 20px;
+    max-width: 490px;
+    width: 100%;
+}
