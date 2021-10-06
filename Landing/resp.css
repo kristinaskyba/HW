@@ -1,0 +1,259 @@
+@media screen and (min-width: 768px) and (max-width: 991.99px) {
+    .header {
+        margin: 10px;
+    }
+
+    .intro {
+        padding-top: 40px;
+    }
+
+    .intro__title {
+        font-size: 22px;
+        line-height: 30px;
+    }
+
+    .intro__text {
+        width: 90%;
+        font-size: 16px;
+    }
+
+    .intro__video {
+        display: block;
+        margin-top: 30px;
+        font-size: 15px;
+    }
+
+    .intro__right--svg {
+        width: 300px;
+        height: 300px;
+    }
+
+    .offer {
+        padding-top: 60px;
+    }
+
+    .offer__item {
+        text-align: center;
+    }
+
+    .title {
+        width: 100%;
+        font-size: 22px;
+        line-height: 30px;
+    }
+
+    .offer__name {
+        font-size: 18px;
+    }
+
+    .offer__text {
+        font-size: 14px;
+    }
+
+    .options {
+        flex-direction: column;
+    }
+
+    .options__left {
+        width: 80%;
+        text-align: center;
+    }
+
+    .options__svg {
+        width: 300px;
+        height: 300px;
+    }
+
+    .different {
+        flex-direction: column-reverse;
+    }
+
+    .title__small {
+        text-align: center;
+    }
+
+    .title__big {
+        text-align: center;
+    }
+
+    .different__right {
+        width: 100%;
+    }
+
+    .different__left {
+        width: 50%;
+    }
+
+    .different__left img {
+        width: 100%;
+    }
+
+    .marketers {
+        flex-direction: column;
+    }
+
+    .options_right-side {
+        width: 50%;
+    }
+
+    .options_right-side img {
+        width: 100%;
+    }
+
+    .marketers {
+        margin-bottom: 20px;
+    }
+
+    .footer {
+        flex-direction: column;
+        align-items: center;
+        padding-top: 30px;
+        padding-bottom: 0;
+    }
+
+    .footer__list {
+        margin-top: 20px;
+        text-align: center;
+        display: inline-flex;
+    }
+
+    .footer__email {
+        margin-top: 30px;
+    }
+
+    .footer__input {
+        display: inline;
+    }
+
+}
+
+@media screen and (min-width: 576px) and (max-width: 767.99px) {
+    .navigation {
+        display: none;
+    }
+
+    .topnav {
+        display: block;
+    }
+
+    .active {
+        display: none;
+    }
+
+    .header__logo {
+        text-align: center;
+    }
+
+    .header__btn {
+        display: none;
+    }
+
+    .intro {
+        padding-top: 0;
+    }
+
+    .title {
+        font-size: 22px;
+        text-align: center;
+    }
+
+    .intro__left {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .intro__btn--left {
+        margin-right: 0;
+        margin-bottom: 30px;
+    }
+
+    .intro__right {
+        display: none;
+    }
+
+    .intro__text {
+        text-align: center;
+        width: 100%;
+        font-size: 16px;
+    }
+
+    .title {
+        width: 100%;
+    }
+
+    .offer__block {
+        flex-direction: column;
+        margin-bottom: 0;
+    }
+
+    .offer__item {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    .options_right-side {
+        display: none;
+    }
+
+    .options__left {
+        width: 100%;
+        text-align: center;
+    }
+
+    .different {
+        padding-top: 30px;
+        border-top: 1px solid grey;
+    }
+
+    .different__left {
+        display: none;
+    }
+
+    .different__right {
+        width: 100%;
+    }
+
+    .title__small {
+        text-align: center;
+    }
+
+    .marketers {
+        margin-bottom: 0px;
+    }
+
+    .footer {
+        padding-top: 30px;
+        padding-bottom: 30px;
+        display: block;
+
+    }
+
+    .footer__list {
+        margin-top: 5px;
+    }
+
+    .footer__list--item {
+        display: inline-block;
+    }
+
+    .footer__email {
+        margin-top: 5px;
+    }
+
+    .footer__input {
+        display: inline;
+        margin-right: 10px;
+        width: 30%;
+    }
+}
+
+
+@media screen and (min-width: 425px) and (max-width: 575.99px) {
+    body {}
+}
+
+@media screen and (min-width: 320px) and (max-width: 424.99px) {
+    body {}
+}
