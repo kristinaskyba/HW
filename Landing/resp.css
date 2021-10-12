@@ -1,10 +1,7 @@
-@media screen and (min-width: 768px) and (max-width: 991.99px) {
-    .header {
-        margin: 10px;
-    }
-
-    .intro {
-        padding-top: 40px;
+@media only screen and (max-width: 991px) {
+    body {
+        margin-left: 20px;
+        margin-right: 20px;
     }
 
     .intro__title {
@@ -13,8 +10,21 @@
     }
 
     .intro__text {
-        width: 90%;
         font-size: 16px;
+    }
+
+    .intro__left {
+        margin-left: 0px;
+        margin-top: 0;
+    }
+
+    .intro__right {
+        width: 87%;
+        margin-right: 0;
+    }
+
+    .intro__right--svg {
+        width: 100%;
     }
 
     .intro__video {
@@ -23,13 +33,8 @@
         font-size: 15px;
     }
 
-    .intro__right--svg {
-        width: 300px;
-        height: 300px;
-    }
-
     .offer {
-        padding-top: 60px;
+        margin-top: 0;
     }
 
     .offer__item {
@@ -50,54 +55,20 @@
         font-size: 14px;
     }
 
-    .options {
-        flex-direction: column;
-    }
-
-    .options__left {
-        width: 80%;
-        text-align: center;
-    }
-
-    .options__svg {
-        width: 300px;
-        height: 300px;
-    }
-
-    .different {
-        flex-direction: column-reverse;
-    }
-
-    .title__small {
-        text-align: center;
-    }
-
-    .title__big {
-        text-align: center;
-    }
-
-    .different__right {
-        width: 100%;
-    }
-
-    .different__left {
-        width: 50%;
-    }
-
-    .different__left img {
-        width: 100%;
-    }
-
-    .marketers {
-        flex-direction: column;
-    }
-
     .options_right-side {
         width: 50%;
     }
 
     .options_right-side img {
         width: 100%;
+    }
+
+    .different__left {
+        margin-right: 20px;
+    }
+
+    .different img {
+        width: 80%;
     }
 
     .marketers {
@@ -127,7 +98,7 @@
 
 }
 
-@media screen and (min-width: 576px) and (max-width: 767.99px) {
+@media only screen and (max-width: 767px) {
     .navigation {
         display: none;
     }
@@ -136,25 +107,45 @@
         display: block;
     }
 
-    .active {
+    .wrapper {
+        display: block;
+        position: relative;
+    }
+
+    .wrapper .navigation__list {
         display: none;
     }
 
-    .header__logo {
-        text-align: center;
+    .topnav:focus+.navigation__list {
+        display: block;
+
+    }
+
+    .wrapper:focus+.navigation__list,
+    .wrapper:hover+.navigation__list,
+    .wrapper:active+.navigation__list {
+        display: block;
+    }
+
+    .topnav:focus+.navigation__list,
+    .topnav:hover+.navigation__list,
+    .topnav:active+.navigation__list {
+        display: block;
     }
 
     .header__btn {
         display: none;
     }
 
-    .intro {
-        padding-top: 0;
-    }
 
     .title {
         font-size: 22px;
         text-align: center;
+    }
+
+    .intro {
+        margin-top: 0;
+        display: block;
     }
 
     .intro__left {
@@ -163,9 +154,20 @@
         align-items: center;
     }
 
+    .intro__title {
+        padding-top: 80px;
+    }
+
+    .btn__block {}
+
     .intro__btn--left {
-        margin-right: 0;
+        margin-right: 30px;
         margin-bottom: 30px;
+    }
+
+    .intro__video {
+        display: inline-block;
+        margin-top: 0;
     }
 
     .intro__right {
@@ -182,8 +184,11 @@
         width: 100%;
     }
 
+    .offer {
+        margin-top: 30px;
+    }
+
     .offer__block {
-        flex-direction: column;
         margin-bottom: 0;
     }
 
@@ -193,45 +198,63 @@
         margin-bottom: 40px;
     }
 
-    .options_right-side {
-        display: none;
-    }
-
     .options__left {
         width: 100%;
-        text-align: center;
+    }
+
+    .benefits {
+        width: 80%;
+    }
+
+    .description {
+        font-size: 14px;
+    }
+
+    .benefits__text {
+        font-size: 14px;
     }
 
     .different {
+        margin-top: 0;
         padding-top: 30px;
         border-top: 1px solid grey;
-    }
-
-    .different__left {
-        display: none;
     }
 
     .different__right {
         width: 100%;
     }
 
-    .title__small {
-        text-align: center;
+    .title__small,
+    .title__big {
+        text-align: left;
+    }
+
+    .title__big {
+        text-align: left;
     }
 
     .marketers {
-        margin-bottom: 0px;
+        border-top: 1px solid grey;
+        margin-top: 0;
+        margin-bottom: 0;
+        padding-top: 30px;
     }
 
     .footer {
         padding-top: 30px;
         padding-bottom: 30px;
         display: block;
+        margin-bottom: 0;
+    }
 
+    .footer__logo {
+        margin-bottom: 30px;
     }
 
     .footer__list {
         margin-top: 5px;
+        text-align: left;
+        display: inline-block;
     }
 
     .footer__list--item {
@@ -239,21 +262,56 @@
     }
 
     .footer__email {
-        margin-top: 5px;
+        margin-top: 15px;
     }
 
     .footer__input {
         display: inline;
         margin-right: 10px;
         width: 30%;
+        padding: 14px 15px;
     }
 }
 
 
-@media screen and (min-width: 425px) and (max-width: 575.99px) {
-    body {}
+@media only screen and (max-width: 576px) {
+    .options_right-side {
+        display: none;
+    }
+
+    .offer__block {
+        flex-wrap: wrap;
+    }
+
+    .offer__item {
+        width: 50%;
+    }
+
+    .benefits {
+        width: 100%;
+    }
+
+    .different__left {
+        display: none;
+    }
 }
 
-@media screen and (min-width: 320px) and (max-width: 424.99px) {
-    body {}
+@media only screen and (max-width: 320px) {
+    .btn__block {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .intro__btn--left {
+        margin-right: 0;
+    }
+
+    .offer__item {
+        width: 100%;
+    }
+
+    .footer__list--item {
+        display: block;
+    }
 }
