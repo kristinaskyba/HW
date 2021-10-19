@@ -1,0 +1,160 @@
+body,
+div,
+section,
+h1,
+h2,
+h3,
+h4,
+p,
+span,
+ul,
+li {
+    box-sizing: border-box;
+    font-size: 18px;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+    padding-block-start: 0;
+    padding-block-end: 0;
+    padding-inline-start: 0;
+    padding-inline-end: 0;
+    font-family: 'Quicksand', sans-serif;
+    line-height: normal;
+}
+
+ul,
+li,
+a {
+    text-decoration: none;
+    color: #2F281E;
+
+}
+
+
+
+.modal {
+    position: relative;
+    display: block;
+    width: 50%;
+    margin: 0 auto;
+    background-image: url(./images/bg-modal.jpg);
+    background-size: cover;
+    box-shadow: 0 0 20px rgba(2, 41, 120, 0.1);
+
+
+}
+
+.modal__gradient {
+    background-image: linear-gradient(32deg, #3023ae 0%, #c86dd7 100%);
+    opacity: .8;
+    z-index: 0;
+    padding: 50px;
+    width: 100%;
+    top: 0;
+    left: 0;
+
+}
+
+.modal>* {
+    z-index: 1;
+}
+
+.tabs {
+    margin-bottom: 45px;
+
+}
+
+.tabs a {
+    font-size: 18px;
+    color: #fbf6e4;
+    margin-right: 30px;
+}
+
+.signin {
+    padding-bottom: 5px;
+    border-bottom: 1px solid red;
+}
+
+.joinus {
+    font-size: 18px;
+    color: #e1c2f1;
+}
+
+.form__label {
+    font-size: 16px;
+    color: #fbf6e4;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.form__input {
+    box-sizing: border-box;
+    width: 100%;
+    border: 1px solid white;
+    padding: 5px 8px;
+    background-color: transparent;
+    margin-bottom: 20px;
+}
+
+.form__check {
+    margin-bottom: 30px;
+}
+
+[type=checkbox] {
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    position: absolute;
+    opacity: 0;
+}
+
+.form__label--checkbox {
+    display: flex;
+    align-items: center;
+    letter-spacing: .03em;
+}
+
+[type=checkbox]:checked+.form__label .form__checkbox {
+    font-size: 12px;
+}
+
+[type=checkbox]:focus+.form__label .form__checkbox {
+    border: 2px solid #e66a64;
+}
+
+.form__checkbox {
+    width: 16px;
+    height: 16px;
+    background-color: #23ae92;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 7px;
+    font-size: 0;
+    border: 2px solid #23ae92;
+    transition: ease .3s font-size;
+}
+
+.btn {
+    padding: 10px 100px;
+    background-color: #23ae92;
+    font-size: 18px;
+    color: #fbf6e4;
+    font-weight: 700;
+    border: none;
+    margin-bottom: 30px;
+    width: 100%;
+}
+
+.form__link {
+    font-size: 13px;
+    color: #b9b9cc;
+    font-weight: 400;
+    padding-bottom: 2px;
+    border-bottom: 1px solid #b9b9cc;
+}
+
+.form__link:last-child {
+    margin-left: 30px;
+}
