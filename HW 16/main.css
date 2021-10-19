@@ -78,6 +78,7 @@
 
 .container__second div {
     max-width: 420px;
+    background-color: #1a1a1a;
 }
 
 .container__second img {
@@ -86,6 +87,7 @@
 }
 
 .first {
+
     grid-area: 1 / 1 / 2 / 2;
 }
 
