@@ -9,6 +9,9 @@ $ffJ: "Josefin Sans";
 $ffA: "Aleo";
 $flex: flex;
 
+html {
+    scroll-behavior: smooth;
+}
 
 .flex {
     display: $flex;
