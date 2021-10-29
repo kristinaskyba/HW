@@ -194,6 +194,57 @@
     }
 }
 
+@media only screen and (max-width: 768px) {
+    .search__input {
+        max-width: 300px;
+        padding: 20px 0;
+    }
+
+    .search__form {
+        flex-direction: column;
+        max-width: 300px;
+    }
+
+    .header__top {
+        top: 60%;
+    }
+
+    .benefits__text {
+        width: 100%;
+    }
+
+    .paragraph {
+        width: 100%;
+        text-align: justify;
+    }
+
+    .btn {
+        width: 100%;
+    }
+
+    .city {
+        width: 100%;
+        padding: 18% 0%;
+        text-align: center;
+    }
+
+    .travel {
+        padding: 0;
+    }
+
+    .travel__second {
+        display: none;
+    }
+
+    .reviews__title {
+        padding: 75px 0 50px 0;
+    }
+
+    .reviews {
+        padding-bottom: 30px;
+    }
+
+}
 
 
 
