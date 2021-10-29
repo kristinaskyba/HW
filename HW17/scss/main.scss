@@ -1,0 +1,45 @@
+@import url(./reset.scss);
+@import url(./normalize.scss);
+
+$color:blue;
+
+
+
+section {
+    color: $color;
+    display: flex;
+    justify-content: center;
+
+}
+
+.border {}
+
+.border {}
+
+.img {}
+
+
+
+.blabla {
+    overflow: hidden;
+    width: 75px;
+    height: 75px;
+}
+
+
+.container::before {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-top: 1px dashed black;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.container {
+    width: 150px;
+    height: 150px;
+    position: relative;
+    z-index: -1;
+}
