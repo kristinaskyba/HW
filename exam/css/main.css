@@ -6,6 +6,12 @@ html {
   scroll-behavior: smooth;
 }
 
+a:active,
+a:hover {
+  outline: 0;
+  color: blue;
+}
+
 .flex {
   display: -webkit-box;
   display: -ms-flexbox;

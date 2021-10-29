@@ -13,6 +13,12 @@ html {
     scroll-behavior: smooth;
 }
 
+a:active,
+a:hover {
+    outline: 0;
+    color: blue;
+}
+
 .flex {
     display: $flex;
     justify-content: space-between;
