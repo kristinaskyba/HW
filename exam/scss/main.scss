@@ -13,10 +13,32 @@ html {
     scroll-behavior: smooth;
 }
 
+.soc:hover {
+    background-color: #495075;
+    color: $color;
+}
+
 a:active,
 a:hover {
     outline: 0;
     color: blue;
+    padding: 15px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    transition: 1s all ease;
+    -webkit-transition: 1s all ease;
+    -moz-transition: 1s all ease;
+    -ms-transition: 1s all ease;
+    -o-transition: 1s all ease;
+}
+
+.nav__logo:hover {
+    background-color: #495075;
+    color: $color;
+
 }
 
 .flex {
@@ -144,6 +166,13 @@ a:hover {
         font-weight: 400;
         font-family: $ffA;
         margin-right: 50px;
+
+    }
+
+    &__link:hover {
+        color: $color;
+        background-color: #495075;
+
     }
 }
 
@@ -173,6 +202,15 @@ a:hover {
     -moz-text-decoration-line: none;
 }
 
+.scroll:hover {
+    color: #495075;
+    transition: 1s all ease;
+    -webkit-transition: 1s all ease;
+    -moz-transition: 1s all ease;
+    -ms-transition: 1s all ease;
+    -o-transition: 1s all ease;
+}
+
 .fa-angle-down {
     display: block;
     margin-top: 5px;
@@ -185,7 +223,8 @@ a:hover {
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 120px;
-    height: 100vh;
+    padding-bottom: 120px;
+
 
     &__text {
         width: 85%;
@@ -220,6 +259,19 @@ a:hover {
     font-family: $ffA;
 }
 
+.search__input {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.search__input:hover {
+    border: 5px solid #5474fd;
+}
+
+.search__input:active {
+    border: 5px solid #5474fd;
+}
+
 .paragraph {
     font-size: 16px;
     line-height: 26px;
@@ -235,6 +287,19 @@ a:hover {
     padding: 22px 40px;
     letter-spacing: 1px;
     border: none;
+}
+
+.btn:hover {
+    border-radius: 5px;
+    background-color: #495075;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.search__btn:hover {
+    background-color: #495075;
 }
 
 .options {
