@@ -13,21 +13,8 @@ html {
     scroll-behavior: smooth;
 }
 
-.soc:hover {
-    background-color: #495075;
-    color: $color;
-}
-
 a:active,
 a:hover {
-    outline: 0;
-    color: blue;
-    padding: 15px;
-    border-radius: 8px;
-    -webkit-border-radius: 8px;
-    -moz-border-radius: 8px;
-    -ms-border-radius: 8px;
-    -o-border-radius: 8px;
     transition: 1s all ease;
     -webkit-transition: 1s all ease;
     -moz-transition: 1s all ease;
@@ -36,9 +23,7 @@ a:hover {
 }
 
 .nav__logo:hover {
-    background-color: #495075;
-    color: $color;
-
+    color: #495075;
 }
 
 .flex {
@@ -47,7 +32,7 @@ a:hover {
 }
 
 .wrapper {
-    max-width: 1170px;
+    max-width: 1120px;
     width: 100%;
     box-sizing: border-box;
     margin: 0 auto;
@@ -170,8 +155,7 @@ a:hover {
     }
 
     &__link:hover {
-        color: $color;
-        background-color: #495075;
+        color: #495075;
 
     }
 }
@@ -242,6 +226,10 @@ a:hover {
 
     &__btn {
         margin-top: 18px;
+    }
+
+    &__img {
+        padding-bottom: 15px;
     }
 
     &__img:last-child {
@@ -410,10 +398,11 @@ a:hover {
 }
 
 .reviews {
-    padding-bottom: 100px;
+    padding-bottom: 200px;
     background: url(../image/bg_review.png);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
 
 
     &__title {
@@ -487,9 +476,8 @@ a:hover {
     color: #e8e8e8;
     width: 38px;
     height: 20px;
-
 }
 
-.icon__lnkdn {
+.icon:hover {
     color: #5474fd;
 }

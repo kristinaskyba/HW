@@ -209,8 +209,18 @@
         top: 60%;
     }
 
-    .benefits__text {
-        width: 100%;
+    .benefits {
+        padding-right: 30px;
+        padding-bottom: 60px;
+
+        &__text {
+            width: 100%;
+        }
+
+        &__title {
+            text-align: center;
+        }
+
     }
 
     .paragraph {
@@ -226,99 +236,31 @@
         width: 100%;
         padding: 18% 0%;
         text-align: center;
+
+        &__text {
+            padding-left: 4%;
+            padding-right: 4%;
+        }
+
+        &__btn {
+            width: 85%;
+        }
     }
 
     .travel {
         padding: 0;
-    }
 
-    .travel__second {
-        display: none;
-    }
-
-    .reviews__title {
-        padding: 75px 0 50px 0;
+        &__second {
+            display: none;
+        }
     }
 
     .reviews {
         padding-bottom: 30px;
+
+        &__title {
+            padding: 75px 15px 50px 15px;
+        }
     }
 
 }
-
-
-
-// @media only screen and (max-width: 1299px) {
-//     .header {
-//         &__search {
-//             margin-bottom: 90px;
-//         }
-//     }
-
-//     .search {
-//         &__btn {
-//             font-size: 16px;
-
-//         }
-
-//         &__input {
-//             padding: 10px 10px;
-//         }
-//     }
-
-//     .benefits {
-//         padding-left: 40px;
-//     }
-
-//     .city {
-//         margin: 0 auto;
-//     }
-
-//     .travel {
-//         padding: 50px 0 50px 0;
-//     }
-// }
-
-// @media only screen and (max-width: 771px) {
-//     .header {
-//         flex-direction: column;
-
-//         &__search {
-//             margin-bottom: 90px;
-//         }
-//     }
-
-//     .search {
-//         &__btn {
-//             font-size: 16px;
-//             display: none;
-
-//         }
-
-//         &__input {
-//             padding: 10px 10px;
-//         }
-
-//         &__responsive {
-//             display: block;
-//         }
-//     }
-
-//     .nav {
-//         display: none;
-//     }
-
-
-
-//     .benefits {
-//         padding-left: 40px;
-//     }
-
-//     .city {
-//         margin: 0 auto;
-//     }
-
-//     .travel {
-//         padding: 50px 0 50px 0;
-//     }
-// }

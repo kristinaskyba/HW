@@ -186,8 +186,15 @@
   .header__top {
     top: 60%;
   }
+  .benefits {
+    padding-right: 30px;
+    padding-bottom: 60px;
+  }
   .benefits__text {
     width: 100%;
+  }
+  .benefits__title {
+    text-align: center;
   }
   .paragraph {
     width: 100%;
@@ -201,17 +208,24 @@
     padding: 18% 0%;
     text-align: center;
   }
+  .city__text {
+    padding-left: 4%;
+    padding-right: 4%;
+  }
+  .city__btn {
+    width: 85%;
+  }
   .travel {
     padding: 0;
   }
   .travel__second {
     display: none;
   }
-  .reviews__title {
-    padding: 75px 0 50px 0;
-  }
   .reviews {
     padding-bottom: 30px;
+  }
+  .reviews__title {
+    padding: 75px 15px 50px 15px;
   }
 }
 /*# sourceMappingURL=resp.css.map */
