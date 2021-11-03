@@ -389,6 +389,10 @@ a:hover {
   padding: 22px 65px;
 }
 
+.city-low {
+  margin-top: 10px;
+}
+
 .travel__second {
   background: url(../image/bg_fourth.png);
   background-size: cover;
