@@ -65,7 +65,8 @@ a:hover {
 }
 
 .header__title {
-  margin-bottom: 12px;
+  margin-bottom: 8px;
+  margin-top: 60px;
 }
 
 .header__slogan {
@@ -111,7 +112,7 @@ a:hover {
 }
 
 .search__input {
-  width: 360px;
+  width: 460px;
   font-size: 14px;
   letter-spacing: 3px;
   color: #999999;
@@ -158,7 +159,7 @@ a:hover {
   color: #ffffff;
   font-weight: 400;
   font-family: "Aleo";
-  margin-right: 50px;
+  margin-right: 30px;
 }
 
 .nav__link:hover {
@@ -215,12 +216,13 @@ a:hover {
 }
 
 .benefits__text {
-  width: 85%;
+  width: 98%;
+  padding-left: 6px;
 }
 
 .benefits__title {
   margin-top: 85px;
-  margin-bottom: 60px;
+  margin-bottom: 54px;
 }
 
 .benefits__intro {
@@ -295,7 +297,7 @@ a:hover {
 }
 
 .options__container {
-  max-width: 977px;
+  max-width: 1170px;
   width: 100%;
 }
 
@@ -310,10 +312,17 @@ a:hover {
   margin-bottom: 20px;
 }
 
-.options__first, .options__second, .options__third {
+.options__first {
+  margin-left: 104px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.options__second, .options__third {
   margin-right: -54px;
   margin-left: -54px;
-  margin-top: 78px;
+  margin-top: 33px;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;

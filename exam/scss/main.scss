@@ -60,7 +60,8 @@ a:hover {
     }
 
     &__title {
-        margin-bottom: 12px;
+        margin-bottom: 8px;
+        margin-top: 60px;
     }
 
     &__slogan {
@@ -106,7 +107,7 @@ a:hover {
     }
 
     &__input {
-        width: 360px;
+        width: 460px;
         font-size: 14px;
         letter-spacing: 3px;
         color: #999999;
@@ -150,7 +151,7 @@ a:hover {
         color: $color;
         font-weight: 400;
         font-family: $ffA;
-        margin-right: 50px;
+        margin-right: 30px;
 
     }
 
@@ -211,12 +212,13 @@ a:hover {
 
 
     &__text {
-        width: 85%;
+        width: 98%;
+        padding-left: 6px;
     }
 
     &__title {
         margin-top: 85px;
-        margin-bottom: 60px;
+        margin-bottom: 54px;
 
     }
 
@@ -295,7 +297,7 @@ a:hover {
     padding: 40px 0;
 
     &__container {
-        max-width: 977px;
+        max-width: 1170px;
         width: 100%;
     }
 
@@ -310,14 +312,19 @@ a:hover {
         margin-bottom: 20px;
     }
 
-    &__first,
+    &__first {
+        margin-left: 104px;
+        align-items: center;
+    }
+
     &__second,
     &__third {
         margin-right: -54px;
         margin-left: -54px;
-        margin-top: 78px;
+        margin-top: 33px;
         align-items: center;
     }
+
 }
 
 .grey-line {
