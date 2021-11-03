@@ -426,7 +426,11 @@ a:hover {
   font-weight: 400;
   font-family: "Aleo";
   text-align: center;
-  padding: 115px 0 100px 0;
+  padding: 76px 0 100px 0;
+}
+
+.reviews__div {
+  margin-left: 30px;
 }
 
 .reviews__container {
@@ -438,15 +442,21 @@ a:hover {
 }
 
 .reviews__text {
-  padding: 30px 35px;
+  padding: 30px 30px;
   background-color: #333333;
 }
 
+.reviews__photo {
+  height: 100%;
+}
+
 .reviews__name {
+  margin-top: 10px;
+  margin-left: 25px;
   font-size: 20px;
   color: #fefefe;
   font-family: "Josefin Sans";
-  margin-bottom: 30px;
+  margin-bottom: 37px;
   text-transform: uppercase;
 }
 
@@ -475,7 +485,7 @@ a:hover {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  padding: 115px 0 50px 0;
+  padding: 100px 0 50px 0;
 }
 
 .footer__logo {
