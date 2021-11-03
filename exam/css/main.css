@@ -297,8 +297,12 @@ a:hover {
 }
 
 .options__container {
-  max-width: 1170px;
-  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .options__text {
@@ -312,26 +316,17 @@ a:hover {
   margin-bottom: 20px;
 }
 
-.options__first {
-  margin-left: 104px;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.options__second, .options__third {
-  margin-right: -54px;
-  margin-left: -54px;
-  margin-top: 33px;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+.options__first, .options__second, .options__third {
+  margin-right: -74px;
+  margin-left: -77px;
+  margin-top: 38px;
 }
 
 .grey-line {
   position: relative;
   overflow: hidden;
   width: 350px;
+  height: 60px;
   -ms-flex-item-align: start;
       align-self: flex-start;
   padding-bottom: 115px;
@@ -354,14 +349,15 @@ a:hover {
   background: url(../image/bg_third.png);
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 230px 0 100px 0;
+  padding: 228px 0 100px 0;
 }
 
 .city {
   background-color: #232323;
   opacity: 90%;
-  padding: 50px 35px;
-  width: 48%;
+  padding: 40px;
+  width: 42%;
+  margin-top: 57px;
 }
 
 .city__name {
@@ -369,7 +365,8 @@ a:hover {
   letter-spacing: 2px;
   color: #e8e8e8;
   font-family: "Josefin Sans";
-  padding-bottom: 30px;
+  padding-bottom: 28px;
+  margin-top: 10px;
 }
 
 .city__title {
