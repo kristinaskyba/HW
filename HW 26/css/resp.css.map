@@ -2,7 +2,7 @@
     "version": 3,
     "mappings": "AAAA,mBAAmB",
     "sources": [
-        "../../HW 26/scss/resp.scss"
+        "../scss/resp.scss"
     ],
     "names": [],
     "file": "resp.css"
