@@ -14,15 +14,53 @@
 </head>
 
 <body>
+<!--
+Мои коментарии удаляются после исправления !
 
+  + PixelPerfect :
+    - не идеал но збсь. Да, для начала збсь. Подробности по секциям.
+  + Адаптив:
+    - ну блииинн, все так хорошо начиналось.
+  + cod-style:
+    - flex/wrapper - очень даже грамотное решение, сделать обшие классы для адаптива.
+    - Стили должны были подключатся одним файлом, Так называемый barrel файл.(ps наконецто вспомнил как он называется)
+    @Info https://basarat.gitbook.io/typescript/main-1/barrel
+  + БЕМ :
+    - Молодец но напомню --- "В названиях классов - нужно учитывать что они буду переиспользоватся тобой и твоими колегами.
+        Класс должен отвечать на вопрос "кто ты? / что это?" и без лишних приставок"
+    - классы старайся одним словом  называть @Info: https://ru.bem.info/methodology/quick-start/
+    - За дублирование названий классов и ID - ата-та-та
+  + other :
+    - СЕО - мета-теги можно былобы и добавить, ето не обизательно, но их наличие всега приветствуется.
+    - icon - fa - Ой молодец, ты единственная кто использоваа иконки из библиотеки.
+    - в каждом проекте должен быть .gitignore также считается плохим тоном если в репозиторий попадают
+        системные/секретные настройки проекта или твоего редактора (.vscode)
+        Используй .gitignore @Info: https://tyapk.ru/blog/post/gitignore
+    - подключение шрифтов должно быть отдельным файлом
+    -
+-->
     <section class="header">
+        <!--
+          + PixelPerfect :
+            - Збсь - 95% совпадение. мне все нравится.
+          + Адаптив:
+            - его нету, а я ожидал чтото красивое ((
+          + cod-style:
+          + БЕМ :
+            - классы старайся одним словом  называть @Info: https://ru.bem.info/methodology/quick-start/
+          + other :
+            - icon - fa - Ой молодец, ты единственная кто использоваа иконки из библиотеки.
+        -->
         <div class="header__top">
             <h1 class="title header__title">
                 Bhromaon
             </h1>
             <p class="slogan header__slogan">Safe Travel Anywhere</p>
             <div class="search header__search">
-                <form class="search__form" action="get">
+                <form class="search__form" action="get" method="get"> <!--
+                        action - ето ссылка на обработчик формы, часто можно встретить ссылку на php файл
+                        method - ето способ как будут отправленны данные в обработчик формы.
+                     -->
                     <input class="search__input" type="text" name="search" placeholder="Search Your Travel Destination">
                     <button class="search__btn" type="submit">Search <i class="fa fa-search"></i></button>
                     <button class="search__btn search__responsive" type="submit"><i class="fa fa-search"></i></button>
@@ -60,6 +98,16 @@
         </div>
     </section>
     <section id="benefits" class="benefits">
+        <!--
+          + PixelPerfect :
+            - Збсь - 95% совпадение. мне все нравится.
+          + Адаптив:
+            - как все было красиво до 1200рх. А потом ты просто не сделала адаптив ))
+          + cod-style:
+          + БЕМ :
+            - За дублирование названий class и ID - ата-та-та. Когда прийдет JS-dom - поплатишся за накие названия.
+          + other :
+        -->
         <div class="wrapper flex">
             <div class="benefits__text">
                 <h2 class="benefits__title title__small">
@@ -83,6 +131,15 @@
         </div>
     </section>
     <section id="options" class="options">
+        <!--
+             + PixelPerfect :
+               - Збсь - 70% совпадение. Дуги не насвих местах.
+             + Адаптив: - нету
+             + cod-style:
+             + БЕМ :
+                - дублирование названий class и ID
+                - все отлично, нейминг, вложенность
+        -->
         <div class="wrapper flex options__container">
             <div class="options__first">
                 <img class="options__img" src="./image/search.png" alt="search">
@@ -107,6 +164,19 @@
         </div>
     </section>
     <section id="city" class="travel">
+        <!--
+             + PixelPerfect : - пойдет
+                - размер секции и background - не совпали,
+                - блок - в пределах допустимого.
+             + Адаптив: до 1220 - все круто
+                - нету
+             + БЕМ :
+                - дублирование названий class и ID
+                - travel- блок, а потом создала city - блок
+                Ладгно city ты решила на 2а блока использовать. Круто и правильно.
+                Но тогда зря использовала travel в следуйщем блоке. Падинги можно былобы и копировать.
+                Или по БЕМ сделать один модификатор для двух секций.
+        -->
         <div class="wrapper">
             <div class="city">
                 <h4 class="city__name">
@@ -126,6 +196,11 @@
         </div>
     </section>
     <section class="travel travel__second">
+        <!--
+             + PixelPerfect : - збсь
+             + Адаптив:  до 1220 - все круто
+                - нету
+        -->
         <div class="wrapper city__second">
             <div class="city city-low">
                 <h4 class="city__name">
@@ -145,6 +220,13 @@
         </div>
     </section>
     <section class="reviews">
+        <!--
+             + PixelPerfect : - пойдет
+                - размер секции - не совпал,
+                - блок и хедер - сильно выбиваются
+             + Адаптив: до 1220 - все круто
+                - нету
+        -->
         <h2 class=" reviews__title title__small">
             What Our Tourist Say
         </h2>
