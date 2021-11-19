@@ -71,36 +71,59 @@ console.log(result);
 
  */
 
-
+//Task 5
 //Написать функцию, которая проверяет, является ли переданное ей число совершенным. Совершенное число – это число, равное сумме всех своих собственных делителей.
 
-function perfectNumber(a) {
+/* function perfectNumber(a) {
     let sum = 0;
-    let reminder;
+
     for (let i = 1; i < a; i++) {
-        reminder = a % i;
-        if (reminder == 0) {
+
+        if (a % i == 0) {
             sum += i;
         }
-        if (a === sum) {
-            return console.log('perfect number')
-        } else {
-            return console.log('not a perfect number')
+    }
+    if (sum === a) {
+        return `${a} is a perfect number`;
+    } else {
+        return `${a} is not a perfect number`;
+    }
+};
+let result = perfectNumber(7);
+console.log(result);
+
+ */
+
+//Task 6
+
+//Написать функцию, которая принимает минимальное и максимальное значения для диапазона, и выводит только те числа из диапазона, которые являются совершенными. Используйте написанную ранее функцию, чтобы узнавать, совершенное число или нет.
+
+/* function perfectNumber(a) {
+    let result = 0;
+
+    for (let i = 1; i < a; i++) {
+        if (a % i == 0) {
+            result += i;
+        }
+    }
+    if (result === a) {
+        return `number ${a} is perfect`;
+    }
+}
+
+function perfectDiapazon(a, b) {
+    for (let i = a; i <= b; i++) {
+        if (perfectNumber(i) !== undefined) {
+            console.log(perfectNumber(i));
         }
     }
 }
-let result = perfectNumber(27);
-console.log(result);
+
+let result = perfectDiapazon(1, 29);
+
+ */
 
 
-
-
-
-
-
-
-
-//Написать функцию, которая принимает минимальное и максимальное значения для диапазона, и выводит только те числа из диапазона, которые являются совершенными. Используйте написанную ранее функцию, чтобы узнавать, совершенное число или нет.
 //Написать функцию, которая принимает время (часы, минуты, секунды) и выводит его на экран в формате «чч:мм:сс».Если при вызове функции минуты и/или секунды не были переданы, то выводить их как 00.
 //Написать функцию, которая принимает часы, минуты и секунды и возвращает это время в секундах.
 //Написать функцию, которая принимает количество секунд, переводит их в часы, минуты и секунды и возвращает в виде строки «чч:мм:сс».
