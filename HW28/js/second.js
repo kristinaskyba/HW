@@ -123,8 +123,70 @@ let result = perfectDiapazon(1, 29);
 
  */
 
+//Task 7
 
 //Написать функцию, которая принимает время (часы, минуты, секунды) и выводит его на экран в формате «чч:мм:сс».Если при вызове функции минуты и/или секунды не были переданы, то выводить их как 00.
+
+/* function setTime(h) {
+    return function setMinutes(m = 0) {
+        return function setSeconds(s = 0) {
+            return `${h}:${m}:${s}`
+        }
+    }
+}
+
+let time = setTime(22)(8)();
+console.log(time);
+
+ */
+
+//Task 8
 //Написать функцию, которая принимает часы, минуты и секунды и возвращает это время в секундах.
+
+/* function setTime(a, b, c) {
+    let result = (a * 3600) + (b * 60) + c;
+    return result;
+}
+let time = setTime(1, 1, 1);
+console.log(time);
+
+ */
+
+//Task 9
+
 //Написать функцию, которая принимает количество секунд, переводит их в часы, минуты и секунды и возвращает в виде строки «чч:мм:сс».
+/* function reverseTime(a) {
+    let totalSeconds = a;
+    let hours = Math.floor(totalSeconds / 3600);
+    totalSeconds %= 3600;
+    let minutes = Math.floor(totalSeconds / 60);
+    let seconds = totalSeconds % 60;
+    console.log(hours + ':' + minutes + ':' + seconds)
+}
+let result = reverseTime(7385);
+console.log(result);
+ */
+
+//Task 10
+
+/*
+function setTime(a, b, c, d, e, f) {
+    let result1 = (a * 3600) + (b * 60) + c;
+    result1;
+    let result2 = (d * 3600) + (e * 60) + f;
+    result2;
+    let diffD = result2 - result1;
+    diffD;
+    let totalSeconds = diffD;
+    let hours = Math.floor(totalSeconds / 3600);
+    totalSeconds %= 3600;
+    let minutes = Math.floor(totalSeconds / 60);
+    let seconds = totalSeconds % 60;
+    console.log(hours + ':' + minutes + ':' + seconds)
+}
+let time = setTime(2, 1, 1, 3, 1, 1);
+ */
+
+
+
 //Написать функцию, которая считает разницу между датами. Функция принимает 6 параметров, которые описывают 2 даты, и возвращает результат в виде строки «чч:мм:сс». При выполнении задания используйте функции из предыдущих 2-х заданий: сначала обе даты переведите в секунды, узнайте разницу в секундах, а потом разницу переведите обратно в «чч:мм:сс»
