@@ -12,6 +12,16 @@
 
 
     {{> footer }}
+
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script>
+        $('.myclass').slick({
+            infinite: true,
+            slidesToShow: 3,
+            slidesToScroll: 3
+        });
+    </script>
     <script async defer src="https://maps.googleapis.com/maps/api/js?callback=initMap">
     </script>
     <script async defer>
@@ -44,6 +54,22 @@
             });
 
         }
+    </script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+
+    <script async defer type="text/javascript">
+        $(function () {
+            $('.multiple-items').slick({
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                dots: true,
+                infinite: true,
+                cssEase: 'linear'
+            });
+        });
     </script>
 
 </body>
